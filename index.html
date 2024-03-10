@@ -7,9 +7,23 @@
 </head>
 <body>
     <h2>hi</h2>
-    welcome to the cosmic zone.<br>
-    <button>projects</button>
+    welcome to the cosmic zone.<br><br>
+    <button id="projbtn">projects</button>
     <br></br>
-    <button>about me</button>
+    <button id="aboutbtn">about me</button>
+    <script>
+        var projects = document.getElementById('projbtn');
+        var about_me = document.getElementById('aboutbtn');
+
+        projects.addEventListener('click', function()
+        {
+            window.location.href = 'https://thatguyastral.github.io/projs.html';
+        });
+
+        about_me.addEventListener('click', function()
+        {
+            window.location.href = 'https://thatguyastral.github.io/about.html';
+        });
+    </script>
 </body>
 </html>
