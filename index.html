@@ -3,27 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>cosmic's zone</title>
+    <title>home - cosmic zone</title>
 </head>
+<style>
+    body {
+        font-family: Inter;
+    }
+</style>
 <body>
-    <h2>hi</h2>
-    welcome to the cosmic zone.<br><br>
-    <button id="projbtn">projects</button>
-    <br></br>
-    <button id="aboutbtn">about me</button>
-    <script>
-        var projects = document.getElementById('projbtn');
-        var about_me = document.getElementById('aboutbtn');
+    <body>
+    <center>
+        <h2>welcome to the cosmic zone.</h2>
+    </center>
+    <hr>
+    <center>
+        <button onclick="projects()">
+            <h3>projects</h3>
+        </button>
+        <button onclick="about()">
+            <h3>about me</h3>
+        </button>
+        <button onclick="socials()">
+            <h3>socials</h3>
+        </button>
+        <button onclick="discord()">
+            <h3>discord</h3>
+        </button>
+    </center>
+        
+        
+        <script>
+            function projects()
+            {
+                window.location.href = 'https://thatguyastral.github.io/projs.html';
+            }
+    
+            function about()
+            {
+                window.location.href = 'https://thatguyastral.github.io/about.html';
+            }
 
-        projects.addEventListener('click', function()
-        {
-            window.location.href = 'https://thatguyastral.github.io/projs.html';
-        });
+            function socials()
+            {
+                window.location.href = 'https://thatguyastral.github.io/socials.html';
+            }
 
-        about_me.addEventListener('click', function()
-        {
-            window.location.href = 'https://thatguyastral.github.io/about.html';
-        });
-    </script>
+            function discord()
+            {
+                window.location.href = 'https://discord.gg/EyyfjjXs3n';
+            }
+        </script>
+    
+    
+    </body>
 </body>
 </html>
