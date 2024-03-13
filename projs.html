@@ -3,20 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>projects - cosmic's zone</title>
+    <title>projects - cosmic zone</title>
 </head>
+<style>
+    body {
+        font-family: Inter;
+        background-color: #121212;
+        color: #c5c5c5;
+    }
+
+    button {
+        background-color: #333;
+        color: #c5c5c5;
+    }
+</style>
 <body>
-    <button id="back">< back</button>
-    <h1>my projects</h1>
+    <body>
+    <button onclick="back()">
+        < back
+    </button>
+    <center>
+        <h2>my projects</h2>
+    </center>
+    <hr>
     <a href="https://github.com/ThatGuyAstral/NovaOS">NovaOS</a> - My first ever operating system!
     <h3>more coming soon!</h3>
-    <script>
-        var back = document.getElementById('back');
-
-        back.addEventListener('click', function()
-        {
-            window.location.href = "https://thatguyastral.github.io/";
-        });
-    </script>
+    <center>
+    </center>
+        
+        
+        <script>
+            function back()
+            {
+                window.location.href = 'https://thatguyastral.github.io/';
+            }
+        </script>
+    
+    
+    </body>
 </body>
 </html>
