@@ -3,19 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>about - cosmic's zone</title>
+    <title>about - cosmic zone</title>
 </head>
-<body>
-    <button id="back">< back</button>
-    <h1>about me</h1>
-    <a href="https://github.com/ThatGuyAstral/">I</a> am a small programmer with many dreams wishing to be accomplished. Well, some have already been accomplished.<br>At first, I programmed in Python. I made console applications then started using a 3D Library called Ursina to make a minecraft clone. <br>Then, I tried C#. Didn't know alot, until now. I figured out I/O and other stuff, and even motivated me to make NovaOS.<br>And now, I'm learning C++. It's okay, I know variables, printing and inputs, but i have way more to learn.
-    <script>
-        var back = document.getElementById('back');
+<style>
+    body {
+        font-family: Inter;
+        background-color: #121212;
+        color: #c5c5c5;
+    }
 
-        back.addEventListener('click', function()
-        {
-            window.location.href = "https://thatguyastral.github.io/";
-        });
-    </script>
+    button {
+        background-color: #333;
+        color: #c5c5c5;
+    }
+</style>
+<body>
+    <body>
+    <button onclick="back()">
+        < back
+    </button>
+    <center>
+        <h2>about me</h2>
+    </center>
+    <hr>
+    <a href="https://github.com/ThatGuyAstral/">I</a> am a small programmer with many dreams wishing to be accomplished. Well, some have already been accomplished.<br>At first, I programmed in Python. I made console applications then started using a 3D Library called Ursina to make a minecraft clone. <br>Then, I tried C#. Didn't know alot, until now. I figured out I/O and other stuff, and even motivated me to make NovaOS.<br>And now, I'm learning C++. It's okay, I know variables, printing and inputs, but i have way more to learn.
+    <center>
+    </center>
+        
+        
+        <script>
+            function back()
+            {
+                window.location.href = 'https://thatguyastral.github.io/';
+            }
+        </script>
+    
+    
+    </body>
 </body>
 </html>
