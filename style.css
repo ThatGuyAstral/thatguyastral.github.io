@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Arial&display=swap');
+
 body {
-        font-family: Arial;
+        font-family: 'Arial', sans-serif;
         background-color: #121212;
         color: #c5c5c5;
 }
